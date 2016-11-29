@@ -1,238 +1,443 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Curso de Arduino</title>
+  <meta name="description" content="Grupo de Estudos em Tecnologia Assistiva - GETA/CESUPA">
+  <meta name="author" content="GETA CESUPA">
+  <link rel="icon" href="assets/images/favicon.ico">
 
+  <title>Grupo de Estudos em Tecnologia Assistiva - CESUPA</title>
+
+  
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/gridsystem.css" type="text/css" rel="stylesheet"/>
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img height="60" width="130" src="image/geta.jpg"/>  </a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="http://www.tedxcesupa.com.br">TEDxCESUPA</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">TEDxCESUPA</a></li>
-      </ul>
-      <a href="http://www.tedxcesupa.com.br" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+<body>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper">
+        <a id="logo-container" href="#" class="brand-logo"><img src="assets/images/geta.png"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#integrantes">Integrantes</a></li>
+          <li><a href="#entrevistas">Entrevistas</a></li>
+          <li><a href="#premiacoes">Premiações</a></li>           
+          <li><a href="#parceiros">Parceiros</a></li>
+          <li><a href="#contato">Contato</a></li>               
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+      </div>
+    </nav>
+  </div>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Curso de Arduino básico/intermediário</h1>
+        <h1 class="header center teal-text text-lighten-2">GETA</h1>      
         <div class="row center">
-          <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
+          <h4 class="header col s12 light">Grupo de Estudos em Tecnologia Assistiva do CESUPA</h4>
         </div>
         <div class="row center">
-            <a href="#conteudo" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Saiba mais</a>
+          <a href="#cursos" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Cursos</a>
         </div>
         <br><br>
-
       </div>
     </div>
-    <div class="parallax"><img src="image/arduino.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="assets/images/capaInicio.png" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+ <div id="sobre" class="section scrollspy">
+  <div class="container">
+    <div class="section">
+
+      <!--  ÍCONES  -->
+      <div class="row">
+        
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Missão</h5>
+
+            <p class="light" align="justify">O Grupo de Estudos em Tecnologia Assistiva (GETA) exerce atividades de pesquisa e desenvolvimento no Centro Universitário do Estado do Pará (CESUPA) para pessoas com deficiência (paralisia cerebral, esclerose lateral amiotrófica, amiotrofia espinhal muscular infantil, ataxia, transtorno do espectro autista, deficiência visual, deficiência auditiva), deficiências físicas e/ou intelectuais. O GETA também organiza eventos e cursos de eletrônica e desenvolvimento de software para alunos e profissionais das áreas de Ciência e Engenharia da Computação, Sistemas de Informação e Engenharia Elétrica.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Objetivos</h5>
+
+            <p class="light" align="justify">Proporcionar independência à pessoas com deficiência através do desenvolvimento de protótipos e produtos de tecnologia asssistiva economicamente viáveis e com tecnologia de integração nacional por meio de parcerias com núcleos de pesquisa nacionais e internacionais em tecnologia assistiva, terapia ocupacional, fisioterapia, psicologia, engenharia e tecnologia da informação.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Valores</h5>
+
+            <p class="light" align="justify">Acreditar em Deus, acima de tudo; Respeitar as necessidades de pessoas com deficiência; Disponibilizar soluções de hardware e software com qualidade de mercado; Oferecer soluções economicamente viáveis e acessíveis.</p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>  
+
+<div id="cursos" class="section scrollspy">
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h3 class="header col s12 light"><b>Cursos e eventos</b></h3>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/images/capaArduino.png" alt="Cursos"></div>
   </div>
 
   <div class="container">
     <div class="section">
 
-      <div class="row" id="conteudo">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Conteúdo programático</h4>
-
-          <div class="section group">
-
-            <div class="col span_1_of_6">
-              <p>Módulo 1</p>
-              História do Arduino <br>
-              Tipos de Arduino <br>
-              Linguagem utilizada <br>
-              IDE  <br>
-
-            </div>
-
-            <div class="col span_1_of_6">
-              <p>Módulo 2</p>
-              Eletrônica básica <br>
-              LEDs <br>
-              Push Buttons <br>
-              Potenciômetro <br>
-              LDR <br>
-              Desafio
-
-            </div>
-
-            <div class="col span_1_of_6">
-              <p>Módulo 3</p>
-
-              Buzzer <br>
-              Serial <br>
-              Shields <br>
-              Módulo Bluetooth <br>
-              Desafio Final
-            </div>
-
-            <div class="col span_1_of_6">
-              <p>Módulo 4</p>
-              Servo motor <br>
-              Motores DC <br>
-              Motores de passo <br>
-              Desafio Robotica
-            </div>
-
-            <div class="col span_1_of_6">
-              <p>Módulo 5</p>
-              ESP8266 <br>
-              Desafio
-
-            </div>
-
-            <div class="col span_1_of_6">
-              <p>Módulo 6</p>
-              MatLab Simulink <br>
-              Encerramento
-            </div>
+      <div class="row">
+        <h3>Novos</h3>
+          <br>
+        <div class="col s12 m6">
+          <div class="icon-block">            
+            <a href="http://ios-geta.tk" class="center" target="_blank"><img src="assets/images/ios.jpg"></a>         
           </div>
+        </div>
 
-          Data: 10/09, 17/09, 24/09, 01/10, 08/10, 15/10 <br>
-          Valor: A partir de R$ 70,00 <br>
-          <!--a href="https://www.eventbrite.com.br/e/iii-curso-teorico-e-pratico-de-arduino-basico-e-tecnologias-embarcadas-do-geta-tickets-26737257858" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Inscrever</a-->
-          <!-- Modal Trigger -->
-          <a class="btn-large waves-effect waves-light teal lighten-1 modal-trigger" href="#modal1">Inscreva-se</a>
-
+        <div class="col s12 m6">
+          <div class="icon-block">
+             <a href="http://mkt-geta.eventbrite.com.br" class="center" target="_blank"><img src="assets/images/mikrotik.jpg"></a>         
+          </div>
         </div>
       </div>
 
-    </div>
-  </div>
-
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
       <div class="row">
-      <div class="col s12 m6 l4">
-        <h5>Básico</h5>
-        <p>
-          Módulos 1, 2 e 3 <br>
-          Data: 10/09, 17/09, 24/09 <br>
-          Valor: R$ 70,00 <br>
-        </p>
+        <h3>Passados</h3>
+          <br>
+        <div class="col s12 m4">
+          <div class="icon-block">            
+            <a href="http://forumtecnologiaassistiva.com.br" class="center" target="_blank"><img src="assets/images/forum.jpg"></a>         
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">            
+            <img class="center" src="assets/images/ard2.jpg">       
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+             <img class="center" src="assets/images/ard3.jpg">      
+          </div>
+        </div>
+
       </div>
 
-      <div class="col s12 m6 l4">
-        <h5>Intermediário</h5>
-        <p>
-          Módulos 4, 5 e 6 <br>
-          Data: 01/10, 08/10, 15/10 <br>
-          Valor: R$ 100,00 <br>
-        </p>
+    </div>
+  </div>
+</div>
+
+<div id="projetos" class="section scrollspy">
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h3 class="header col s12 light"><b>Nossos projetos</b></h3>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/images/capaProjetos.png" alt="Nossos projetos"></div>
+</div>
+
+<br>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        
+        <div class="col s12 m4 center">        
+          <div class="icon-block">            
+            <a href="http://tedxcesupa.com.br" class="center" target="_blank"><img src="assets/images/tedxcesupaBanner.png"></a> 
+            <h5 class="center">TEDxCESUPA</h5>           
+            <p class="light" align="justify">O TEDxCESUPA é uma conferência independente no estilo <a href="http://ted.com" target="_blank">TED</a>, sem fins lucrativos, que ocorreu no dia 09 de Abril de 2016 no Auditório Conceição Rangel Fiúza de Melo do Centro Universitário do Estado do Pará (CESUPA). O TEDxCESUPA tem por objetivo instigar alunos e professores da comunidade a desenvolver suas ideias e criar um mundo melhor. Assista no <a href="http://tedxcesupa.com.br" target="_blank">site</a> o vídeo teaser da conferência TEDxCESUPA 2016 sob o tema: "Redescobrindo"!</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4 center">
+          <div class="icon-block">
+             <img src="assets/images/qd.png">
+            <h5 class="center">Quarto Dimensão</h5>
+
+            <p class="light" align="justify">Descrição QD.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4 center">
+          <div class="icon-block">
+            <img src="assets/images/bl.png">
+            <h5 class="center">Brincando com a Leitura</h5>
+
+            <p class="light" align="justify">Descrição BL.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="integrantes" class="section scrollspy">
+
+</div>
+
+
+
+<div id="entrevistas" class="section scrollspy">
+
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h4 class="header col s12 light"><b>Entrevistas</b></h4>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/images/capaEntrevistas.jpg" alt="Entrevistas"></div>
+  </div>
+
+  <br><br><br>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        
+        <div class="col s12 m4">
+          <div class="icon-block">            
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1273287032712147%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>        
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">            
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1273275439379973%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>        
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">            
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1273246302716220%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>       
+          </div>
+        </div>
+
       </div>
 
-      <div class="col s12 m6 l4">
-        <h5>Curso completo</h5>
-        <p>
-          Todos os módulos <br>
-          Data: 10/09, 17/09, 24/09, 01/10, 08/10, 15/10 <br>
-          Valor: R$ 150,00 <br>
-        </p>
+      <div class="row">
+        
+        <div class="col s12 m4">
+          <div class="icon-block">            
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1388916161149233%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>        
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">            
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1388980401142809%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>       
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">            
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1388988094475373%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>       
+          </div>
+        </div>
+
       </div>
-    </div>
-    </div>
-    <div class="modal-footer">
-      <a href="https://www.eventbrite.com.br/e/iii-curso-teorico-e-pratico-de-arduino-basico-e-tecnologias-embarcadas-tickets-26737257858" class=" modal-action waves-effect waves-green btn-flat">Inscrever</a>
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+
+      </div>
     </div>
   </div>
 
+</div>
 
+
+
+
+<div id="premiacoes" class="section scrollspy">
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h4 class="header col s12 light"><b>Prêmios recebidos pelo GETA</b></h4>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/images/capaPremiacoes.jpg" alt="Prêmios recebidos pelo GETA"></div>
+  </div>
+
+<!-- 
+2012/I: 3 primeiros lugares do IV Fórum de Tecnologia Assistiva do NEDETA/UEPA;
+2013/1: Conceição Rangel Fiúza de Melo na VIII Computação Amostra;
+2013/2: 1º Lugar na categoria produto da IV Computação Amostra;
+2014/1: 3º Lugar na categoria produto na X Computação Amostra. 
+ -->
+
+</div>
+
+<div id="parceiros" class="section scrollspy">
+
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h4 class="header col s12 light"><b>Parceiros</b></h4>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/images/capaParceiros.jpg" alt="Prêmios recebidos pelo GETA"></div>
+  </div>
+
+<div class="container">
+    <div class="section">
+      <div class="row"> 
+
+        <div class="col s12 m3">
+         <a href="http://www.cesupa.br" target="_blank"><img src="assets/images/cesupa.jpg" alt="CESUPA"></a>
+        </div>
+
+        <div class="col s12 m3">
+         <a href="https://www.facebook.com/nedeta.uepa" target="_blank"><img src="assets/images/nedeta.jpg" alt="NEDETA UEPA"></a>
+        </div>
+
+        <div class="col s12 m3">
+         <a href="http://www.linkcomportamental.com" target="_blank"><img src="assets/images/link.jpg" alt="Link Comportamental"></a>
+        </div>
+
+        <div class="col s12 m3">
+         <a href="http://www.aprende.ufpa.br/sobre/" target="_blank"><img src="assets/images/aprende.jpg" alt="APRENDE UFPA"></a>
+        </div>
+      </div>
+
+      <div class="row"> 
+
+        <div class="col s12 m3">
+         <a href="http://web.mit.edu" target="_blank"><img src="assets/images/mit.jpg" alt="MIT"></a>
+        </div>
+
+        <div class="col s12 m3">
+         <a href="http://www.cti.gov.br" target="_blank"><img src="assets/images/cti.jpg" alt="CTI Renato Archer"></a>
+        </div>
+
+        <div class="col s12 m3">
+         <a href="http://www.finep.gov.br" target="_blank"><img src="assets/images/finep.jpg" alt="FINEP"></a>
+        </div>
+
+        <div class="col s12 m3">
+         <a href="http://www.fapespa.pa.gov.br" target="_blank"><img src="assets/images/fapespa.jpg" alt="FAPESPA"></a>
+        </div>
+
+      </div>
+
+    </div>
+</div>
+
+</div>
+
+<div id="contato" class="section scrollspy">
+
+
+</div>
 
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light" style="color:black"></h5>
+          <h3 class="header col s12 light"><b>Participe do GETA, seja nosso parceiro!</b></h3>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="image/arduino2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="assets/images/capaFinal.png" alt="Unsplashed background img 3"></div>
   </div>
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><img class="circle responsive-img" src="image/mh.jpg">
-
-            <h5 class="center">Mahtues Henrique</h5>
-
-            <p class="light">acadêmico do curso de Bacharelado em Ciência da Computação do CESUPA e faz da tecnologia assistiva seu ideal de vida. Fundou o Grupo de Estudos em Tecnologia Assistiva (GETA) com a professora Msc. Alessandra Natasha em 2013 e atualmente desenvolve os projetos de acessibilidade: aplicativo de alfabetização fônica controlado via Bluetooth® e Quarto Dimensão: interface de automação residencial guiada por eletroencefalograma. </p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><img class="circle responsive-img" src="image/lf.jpg">
-
-            <h5 class="center">Fernando Gomes</h5>
-
-            <p class="light">acadêmico do curso de Bacharelado em Ciência da Computação do CESUPA, membro do Grupo de Estudos em Tecnologia Assistiva (GETA) do CESUPA e desenvolvedor do projeto: Tecnologia embarcada para análise de movimento. </p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-
 
   <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">GETA</h5>
+          <p class="grey-text text-lighten-4">Grupo de Estudo em Tecnologia Assistiva (GETA) do Centro Universitário do Estado do Pará (CESUPA), fundado em 2013 pela Profª MSc. Alessandra Natasha Barreiros e Matheus Henrique dos Santos.</p>
+
+        </div>
+
+        <div class="col l3 s12">
+          <br>
+        </div>
+
+        <!--div class="col l3 s12">
+          <h5 class="white-text">Menu alternativo</h5>
+          <ul>
+            <li><a class="white-text" href="#" target="_blank">Link 1</a></li>
+            <li><a class="white-text" href="#" target="_blank">Link 2</a></li>
+            <li><a class="white-text" href="#" target="_blank">Link 3</a></li>
+            <li><a class="white-text" href="#" target="_blank">Link 4</a></li>
+          </ul>
+        </div-->
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Conecte-se!</h5>
+        <ul>
+
+            <li><a class="white-text" href="http://dgp.cnpq.br/dgp/espelhogrupo/6411407947674167" target="_blank">Grupo CNPq</a></li>
+            <li><a class="white-text" href="https://www.facebook.com/getacesupa/" target="_blank">Facebook</a></li>
+            <li><a class="white-text" href="http://getacesupa.github.io" target="_blank">Cursos de Arduino</a></li>
+            <li><a class="white-text" href="http://tedxcesupa.com.br" target="_blank">TEDxCESUPA</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="footer-copyright">
       <div class="container">
-      GETA - Grupo de Estudo de Tecnologia Assistiva
-      </div>
+      Desenvolvido com <a class="brown-text text-lighten-3" href="http://materializecss.com" target="_blank">Materialize</a>
+    </div>
     </div>
   </footer>
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="assets/js/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
 
-  <script>
-  $(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal-trigger').leanModal();
-  });
-  </script>
-
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-71099817-3', 'auto');
-  ga('send', 'pageview');
-
+<script>
+   $(document).ready(function(){
+    $('.scrollspy').scrollSpy();    
+  });    
 </script>
-
+    
   </body>
 </html>

@@ -1,0 +1,68 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 970px){
+    .social_info{
+        display: none;
+    }
+}
+@media (min-width: 750px) and (max-width: 970px) {
+    #page-top{
+        padding-top: 20%;
+    }
+    .sections{
+        padding-top: 110px;
+    }
+    .social_links{
+        display: none;
+    }
+}
+@media (max-width: 750px) {
+	.navbar-fixed-top{
+		position:fixed;
+		background: #fff;
+        overflow: auto;
+	}
+    #page-top{
+        padding-top: 35%;
+    }
+    .sections{
+        padding-top: 110px;
+    }
+    .social_links{
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+		background:rgba(255,255,255,0.9);
+    }
+	.top-nav-collapse img{
+		width:80%;
+		-webkit-transition: width .5s ease-in-out;
+        -moz-transition: width .5s ease-in-out;
+        transition: width .5s ease-in-out;
+	}
+}
+
