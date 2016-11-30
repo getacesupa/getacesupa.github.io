@@ -18,6 +18,19 @@
 </head>
 
 <body>
+
+<!-- Plugin Facebook -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
   <div class="navbar-fixed">
     <nav class="white" role="navigation">
       <div class="nav-wrapper">
@@ -29,12 +42,17 @@
           <li><a href="#integrantes">Integrantes</a></li>
           <li><a href="#entrevistas">Entrevistas</a></li>
           <li><a href="#premiacoes">Premiações</a></li>           
-          <li><a href="#parceiros">Parceiros</a></li>
-          <li><a href="#contato">Contato</a></li>               
+          <li><a href="#parceiros">Parceiros</a></li>           
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
-          <li><a href="#">Navbar Link</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#integrantes">Integrantes</a></li>
+          <li><a href="#entrevistas">Entrevistas</a></li>
+          <li><a href="#premiacoes">Premiações</a></li>           
+          <li><a href="#parceiros">Parceiros</a></li> 
         </ul>
 
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -74,6 +92,7 @@
             <h5 class="center">Missão</h5>
 
             <p class="light" align="justify">O Grupo de Estudos em Tecnologia Assistiva (GETA) exerce atividades de pesquisa e desenvolvimento no Centro Universitário do Estado do Pará (CESUPA) para pessoas com deficiência (paralisia cerebral, esclerose lateral amiotrófica, amiotrofia espinhal muscular infantil, ataxia, transtorno do espectro autista, deficiência visual, deficiência auditiva), deficiências físicas e/ou intelectuais. O GETA também organiza eventos e cursos de eletrônica e desenvolvimento de software para alunos e profissionais das áreas de Ciência e Engenharia da Computação, Sistemas de Informação e Engenharia Elétrica.</p>
+
           </div>
         </div>
 
@@ -119,42 +138,47 @@
       <div class="row">
         <h3>Novos</h3>
           <br>
-        <div class="col s12 m6">
+        <div class="col s12 m4">
           <div class="icon-block">            
-            <a href="http://ios-geta.tk" class="center" target="_blank"><img src="assets/images/ios.jpg"></a>         
+            <a href="http://ios-geta.tk" class="center" target="_blank"><img class="responsive-img" src="assets/images/ios.jpg"></a>         
           </div>
         </div>
 
-        <div class="col s12 m6">
+        <div class="col s12 m4">
           <div class="icon-block">
-             <a href="http://mkt-geta.eventbrite.com.br" class="center" target="_blank"><img src="assets/images/mikrotik.jpg"></a>         
+             <a href="http://mkt-geta.eventbrite.com.br" class="center" target="_blank"><img class="responsive-img" src="assets/images/mikrotik.jpg"></a>         
           </div>
         </div>
       </div>
 
-      <div class="row">
-        <h3>Passados</h3>
+
+    <h3>Passados</h3>
+      <div class="row">        
           <br>
-        <div class="col s12 m4">
+        <div class="col s12 m3">
           <div class="icon-block">            
-            <a href="http://forumtecnologiaassistiva.com.br" class="center" target="_blank"><img src="assets/images/forum.jpg"></a>         
+            <a href="http://forumtecnologiaassistiva.com.br" class="center" target="_blank"><img class="responsive-img" src="assets/images/forum.jpg"></a>         
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m3">
           <div class="icon-block">            
-            <img class="center" src="assets/images/ard2.jpg">       
+            <img class="responsive-img" src="assets/images/ard2.jpg">       
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m3">
           <div class="icon-block">
-             <img class="center" src="assets/images/ard3.jpg">      
+             <img class="responsive-img" src="assets/images/ard3.jpg">      
           </div>
         </div>
 
+        <div class="col s12 m3">
+          <div class="icon-block">            
+            <a href="http://tedxcesupa.com.br" class="center" target="_blank"><img class="responsive-img" src="assets/images/tedx.jpg"></a>         
+          </div>
+        </div>
       </div>
-
     </div>
   </div>
 </div>
@@ -180,7 +204,7 @@
         
         <div class="col s12 m3 center">        
           <div class="icon-block">            
-            <a href="http://tedxcesupa.com.br" class="center" target="_blank"><img src="assets/images/tedxcesupaBanner.jpg"></a> 
+            <a href="http://tedxcesupa.com.br" class="center" target="_blank"><img class="responsive-img" src="assets/images/tedxcesupaBanner.jpg"></a> 
             <h5 class="center">TEDxCESUPA</h5>           
             <p class="light" align="justify">O TEDxCESUPA é uma conferência independente no estilo <a href="http://ted.com" target="_blank">TED</a>, sem fins lucrativos, que ocorreu no dia 09 de Abril de 2016 no Auditório Conceição Rangel Fiúza de Melo do Centro Universitário do Estado do Pará (CESUPA). O TEDxCESUPA tem por objetivo instigar alunos e professores da comunidade a desenvolver suas ideias e criar um mundo melhor. Assista no <a href="http://tedxcesupa.com.br" target="_blank">site</a> o vídeo teaser da conferência TEDxCESUPA 2016 sob o tema: "Redescobrindo"!</p>
           </div>
@@ -188,7 +212,7 @@
 
         <div class="col s12 m3 center">
           <div class="icon-block">
-            <a href="#entrevistas" class="center" target="_blank"><img src="assets/images/qd.jpg"></a> 
+            <a href="#entrevistas" class="center" target="_blank"><img class="responsive-img" src="assets/images/qd.jpg"></a> 
             <h5 class="center">Quarto Dimensão</h5>
 
             <p class="light" align="justify">Baseado em adaptações no ambiente residencial, agrega a mobilidade e promove a independência de pessoas com deficiência ou mobilidade reduzida, através da eletroencefalografia (EEG). O produto pode ser utilizado como um recurso de hardware adaptável a necessidade do usuário, a fim de promover a interface de controle residencial. Veja o funcioamento em uma das <a href="#entrevistas" target="_blank">entrevistas</a> listadas no site.</p>
@@ -197,7 +221,7 @@
 
         <div class="col s12 m3 center">
           <div class="icon-block">
-            <a href="https://itunes.apple.com/br/app/brincando-com-a-leitura/id1161407234?mt=8" class="center" target="_blank"><img src="assets/images/bl.jpg"></a> 
+            <a href="https://itunes.apple.com/br/app/brincando-com-a-leitura/id1161407234?mt=8" class="center" target="_blank"><img class="responsive-img" src="assets/images/bl.jpg"></a> 
             <h5 class="center">Brincando com a Leitura</h5>
 
             <p class="light" align="justify">O aplicativo Brincando com a Leitura é um aplicativo desenvolvido para iPads, que auxilia pessoas com deficiência física e/ou intelectual no processo da alfabetização, por meio do método fônico. A solução foi desenvolvida a partir de técnicas de gamificação e dotada de acessibilidade. Foi implementado um acionador baseado em bluetooth, que dispõe de tecnologia de integração nacional, economicamente acessível, através do qual o usuário pode se comunicar com o aplicativo por meio de tração, sopro, movimento da cabeça ou pressão. <a href="https://itunes.apple.com/br/app/brincando-com-a-leitura/id1161407234?mt=8" target="_blank">Clique aqui</a> para baixar o Brincando com a Leitura.</p>
@@ -206,7 +230,7 @@
 
         <div class="col s12 m3 center">        
           <div class="icon-block">            
-            <a href="http://peludinhosufpa.com.br" class="center" target="_blank"><img src="assets/images/peludinhos.jpg"></a> 
+            <a href="http://peludinhosufpa.com.br" class="center" target="_blank"><img class="responsive-img" src="assets/images/peludinhos.jpg"></a> 
             <h5 class="center">Peludinhos da UFPA</h5>           
             <p class="light" align="justify">O projeto peludinhos da UFPA foi desenvolvido para atender a necessidades dos animais que estão na universidade e precisam de assistência, além de carinho e afeto. Surgiu como defesa de animais doentes e necessitados no campus, se trata de um incentivo ao bem estar e ao respeito a vida. Os peludinhos contam com apoio externo, tais como voluntários e amigos (que participam das atividades do projeto), assim também como parceiras que a coordenação busca com interessados em dar suporte aos 150 cães e gatos (ainda não contabilizados).</p>
           </div>
@@ -329,20 +353,26 @@
       <div class="row">
         
         <div class="col s12 m4">
-          <div class="icon-block">            
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1273287032712147%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>        
+          <div class="icon-block"> 
+          <div class="video-container">           
+            <iframe  src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1273287032712147%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+            </div>        
           </div>
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">            
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1273275439379973%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>        
+          <div class="icon-block"> 
+          <div class="video-container">           
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1273275439379973%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe> 
+            </div>       
           </div>
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">            
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1273246302716220%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>       
+          <div class="icon-block">    
+          <div class="video-container">        
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1273246302716220%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>  
+            </div>     
           </div>
         </div>
 
@@ -351,20 +381,26 @@
       <div class="row">
         
         <div class="col s12 m4">
-          <div class="icon-block">            
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1388916161149233%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>        
+          <div class="icon-block">  
+          <div class="video-container">          
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1388916161149233%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>  
+            </div>      
           </div>
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">            
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1388980401142809%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>       
+          <div class="icon-block">  
+          <div class="video-container">          
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1388980401142809%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>    
+            </div>   
           </div>
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">            
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1388988094475373%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>       
+          <div class="icon-block"> 
+          <div class="video-container">           
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2Fvideos%2F1388988094475373%2F&show_text=0&width=400" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe> 
+            </div>      
           </div>
         </div>
 
@@ -392,14 +428,44 @@
     <div class="parallax"><img src="assets/images/capaPremiacoes.jpg" alt="Prêmios recebidos pelo GETA"></div>
   </div>
 
-<!-- 
-2012/I: 3 primeiros lugares do IV Fórum de Tecnologia Assistiva do NEDETA/UEPA;
-2013/1: Conceição Rangel Fiúza de Melo na VIII Computação Amostra;
-2013/2: 1º Lugar na categoria produto da IV Computação Amostra;
-2014/1: 3º Lugar na categoria produto na X Computação Amostra. 
- -->
+<br><br><br>
+  <div class="container">
+    <div class="section">
+      
+      <div class="row">        
+        <div class="col s12 m3 center">        
+          <div class="icon-block">            
+            <a href="#" class="center" target="_blank"><img class="responsive-img circle" src="assets/images/existir.jpg"></a> 
+            <h5 class="center">Prêmio EXISTIR 2016</h5>         
+          </div>
+        </div>
 
+        <div class="col s12 m3 center">
+          <div class="icon-block">
+            <a href="#" class="center" target="_blank"><img class="responsive-img circle" src="assets/images/3lugar.jpg"></a> 
+            <h5 class="center">3º Lugar - X Computação Amostra</h5>            
+          </div>
+        </div>
+
+        <div class="col s12 m3 center">
+          <div class="icon-block">
+            <a href="#" class="center" target="_blank"><img class="responsive-img circle" src="assets/images/1lugar.jpg"></a> 
+            <h5 class="center">1º Lugar - IX Computação Amostra</h5>
+          </div>
+        </div>
+
+        <div class="col s12 m3 center">
+          <div class="icon-block">
+            <a href="#" class="center" target="_blank"><img class="responsive-img circle" src="assets/images/conceicaoRangel.jpg"></a> 
+            <h5 class="center">Conceição Rangel - VIII Computação Amostra</h5>
+          </div>
+        </div>
+     </div>
+   </div>
+  </div>
 </div>
+
+<br><br><br>
 
 <div id="parceiros" class="section scrollspy">
 
@@ -421,50 +487,42 @@
       <div class="row"> 
 
         <div class="col s12 m3">
-         <a href="http://www.cesupa.br" target="_blank"><img src="assets/images/cesupa.jpg" alt="CESUPA"></a>
+         <a href="http://www.cesupa.br" target="_blank"><img  class="responsive-img"src="assets/images/cesupa.jpg" alt="CESUPA"></a>
         </div>
 
         <div class="col s12 m3">
-         <a href="https://www.facebook.com/nedeta.uepa" target="_blank"><img src="assets/images/nedeta.jpg" alt="NEDETA UEPA"></a>
+         <a href="https://www.facebook.com/nedeta.uepa" target="_blank"><img class="responsive-img" src="assets/images/nedeta.jpg" alt="NEDETA UEPA"></a>
         </div>
 
         <div class="col s12 m3">
-         <a href="http://www.linkcomportamental.com" target="_blank"><img src="assets/images/link.jpg" alt="Link Comportamental"></a>
+         <a href="http://www.linkcomportamental.com" target="_blank"><img class="responsive-img" src="assets/images/link.jpg" alt="Link Comportamental"></a>
         </div>
 
         <div class="col s12 m3">
-         <a href="http://www.aprende.ufpa.br/sobre/" target="_blank"><img src="assets/images/aprende.jpg" alt="APRENDE UFPA"></a>
+         <a href="http://www.aprende.ufpa.br/sobre/" target="_blank"><img class="responsive-img" src="assets/images/aprende.jpg" alt="APRENDE UFPA"></a>
         </div>
       </div>
 
       <div class="row"> 
 
         <div class="col s12 m3">
-         <a href="http://web.mit.edu" target="_blank"><img src="assets/images/mit.jpg" alt="MIT"></a>
+         <a href="http://web.mit.edu" target="_blank"><img class="responsive-img" src="assets/images/mit.jpg" alt="MIT"></a>
         </div>
 
         <div class="col s12 m3">
-         <a href="http://www.cti.gov.br" target="_blank"><img src="assets/images/cti.jpg" alt="CTI Renato Archer"></a>
+         <a href="http://www.cti.gov.br" target="_blank"><img class="responsive-img" src="assets/images/cti.jpg" alt="CTI Renato Archer"></a>
         </div>
 
         <div class="col s12 m3">
-         <a href="http://www.finep.gov.br" target="_blank"><img src="assets/images/finep.jpg" alt="FINEP"></a>
+         <a href="http://www.finep.gov.br" target="_blank"><img class="responsive-img" src="assets/images/finep.jpg" alt="FINEP"></a>
         </div>
 
         <div class="col s12 m3">
-         <a href="http://www.fapespa.pa.gov.br" target="_blank"><img src="assets/images/fapespa.jpg" alt="FAPESPA"></a>
+         <a href="http://www.fapespa.pa.gov.br" target="_blank"><img class="responsive-img" src="assets/images/fapespa.jpg" alt="FAPESPA"></a>
         </div>
-
       </div>
-
     </div>
 </div>
-
-</div>
-
-<div id="contato" class="section scrollspy">
-
-
 </div>
 
 
@@ -488,9 +546,7 @@
 
         </div>
 
-        <div class="col l3 s12">
-          <br>
-        </div>
+        
 
         <!--div class="col l3 s12">
           <h5 class="white-text">Menu alternativo</h5>
@@ -506,13 +562,17 @@
           <h5 class="white-text">Conecte-se!</h5>
         <ul>
 
-            <li><a class="white-text" href="http://dgp.cnpq.br/dgp/espelhogrupo/6411407947674167" target="_blank">Grupo CNPq</a></li>
             <li><a class="white-text" href="https://www.facebook.com/getacesupa/" target="_blank">Facebook</a></li>
-            <li><a class="white-text" href="http://getacesupa.github.io" target="_blank">Cursos de Arduino</a></li>
+            <li><a class="white-text" href="mailto:getacesupa@gmail.com" target="_blank">E-mail</a></li>
+            <li><a class="white-text" href="http://dgp.cnpq.br/dgp/espelhogrupo/6411407947674167" target="_blank">Grupo CNPq</a></li>           
             <li><a class="white-text" href="http://tedxcesupa.com.br" target="_blank">TEDxCESUPA</a></li>
-
           </ul>
         </div>
+
+        <div class="col l3 s12">
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgetacesupa%2F&tabs=&width=340&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+
       </div>
     </div>
     <div class="footer-copyright">
